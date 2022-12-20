@@ -1,0 +1,26 @@
+// Código de Nav acá
+nav {
+    background-color: @nav-bg;
+    .flex(column, center, center);
+    
+    h2 {
+        margin-top: 1rem;
+    }
+    
+    ul {
+        .flex(row, center, center);
+        width: 40%;
+        
+        li {
+            padding: 1rem 1rem;
+
+            a {
+                .links(@nav-font, 1.3rem);
+            }
+        }
+        @media screen and (max-width: @phone) {
+            width: 80%;
+        }
+    }
+    
+}

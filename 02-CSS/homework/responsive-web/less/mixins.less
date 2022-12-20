@@ -1,0 +1,22 @@
+// Mixins acá
+
+.flex(@direccion; @align; @justify){
+    display: flex;
+    flex-direction: @direccion;
+    align-items: @align;
+    justify-content: @justify;
+}
+
+.links(@color; @size){
+    text-decoration: none;
+    color: @color;
+    font-size: @size;
+    cursor: pointer;
+}
+
+.boton(@bgcolor; @color){
+    background-color: @bgcolor;
+    color: @color;
+    cursor: pointer;
+    border: thin solid @shuttle-gray;
+}

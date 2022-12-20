@@ -1,0 +1,17 @@
+.home {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(https://images.pexels.com/photos/3789871/pexels-photo-3789871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  padding-bottom: 25px;
+}
+
+.cardsContainer {
+  margin-top: 1.5rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 30px;
+}

@@ -1,0 +1,33 @@
+.barraNav {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.weatherTitle {
+  margin-left: 20px;
+  font-size: 1.25rem;
+}
+
+.bar {
+  position: absolute;
+  right: 20px;
+}
+
+.weatherAbout {
+  margin-left: 30px;
+  font-size: 1.20rem;
+  color: white;
+}
+
+.weatherAbout:hover{
+color: rgb(0, 115, 255);
+transition: 0.4s;
+}
+
+.barraNav a:hover {
+  text-decoration: none;
+}
